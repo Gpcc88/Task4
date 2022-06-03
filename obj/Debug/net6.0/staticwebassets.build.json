@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "3fykBvszPFF4W+D1waXzKJBebi30Hq0ZoJvhWOxV0Ns=",
+  "Source": "asp31",
+  "BasePath": "_content/asp31",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "asp31\\wwwroot",
+      "Source": "asp31",
+      "ContentRoot": "C:\\Users\\POLIDO Gonçalo\\source\\repos\\Tarefa 1\\asp60_4\\asp31\\wwwroot\\",
+      "BasePath": "_content/asp31",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\POLIDO Gonçalo\\source\\repos\\Tarefa 1\\asp60_4\\asp31\\wwwroot\\favicon.ico",
+      "SourceId": "asp31",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\POLIDO Gonçalo\\source\\repos\\Tarefa 1\\asp60_4\\asp31\\wwwroot\\",
+      "BasePath": "_content/asp31",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
