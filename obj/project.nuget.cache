@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ReKI8OvzU7kdYBCQ8joNTBvjpFflenTG5qG8NaSbFfSsWurMH1UjCQXScGsu7CMr/zPV8hZfrr4vRjXmigX9BA==",
+  "dgSpecHash": "qkEpktfOp1hDEgzOWw1LZS012DIGzKtfVigaD3U2p/uso3iTCyWyM71TwUw+7lyRg1KCyFlIhMa4RKIhe5KXaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\POLIDO Gonçalo\\source\\repos\\Tarefa 1\\asp60_4\\asp31\\asp31.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\POLIDO Gonçalo\\.nuget\\packages\\docfx.console\\2.59.2\\docfx.console.2.59.2.nupkg.sha512",
     "C:\\Users\\POLIDO Gonçalo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\POLIDO Gonçalo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\POLIDO Gonçalo\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

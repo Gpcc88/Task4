@@ -794,3 +794,7 @@ C:\Users\POLIDO Gonçalo\source\repos\Tarefa 1\asp60_4\asp31\obj\Debug\net6.0\re
 C:\Users\POLIDO Gonçalo\source\repos\Tarefa 1\asp60_4\asp31\obj\Debug\net6.0\asp31.pdb
 C:\Users\POLIDO Gonçalo\source\repos\Tarefa 1\asp60_4\asp31\obj\Debug\net6.0\asp31.genruntimeconfig.cache
 C:\Users\POLIDO Gonçalo\source\repos\Tarefa 1\asp60_4\asp31\obj\Debug\net6.0\ref\asp31.dll
+C:\Users\POLIDO Gonçalo\source\repos\Tarefa 1\asp60_4\asp31\bin\Debug\net6.0\Task_4.postman_collection.json
+C:\Users\POLIDO Gonçalo\source\repos\Tarefa 1\asp60_4\asp31\bin\Debug\net6.0\docfx.json
+C:\Users\POLIDO Gonçalo\source\repos\Tarefa 1\asp60_4\asp31\bin\Debug\net6.0\_site\manifest.json
+C:\Users\POLIDO Gonçalo\source\repos\Tarefa 1\asp60_4\asp31\bin\Debug\net6.0\_site\search-stopwords.json

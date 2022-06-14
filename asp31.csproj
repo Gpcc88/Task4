@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -13,6 +13,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="docfx.console" Version="2.59.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -32,6 +36,46 @@
     <Content Remove="$(SpaRoot)**" />
     <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\_site\api\asp31.Controllers.EmployeesController.html" />
+    <None Include="wwwroot\_site\api\asp31.Controllers.html" />
+    <None Include="wwwroot\_site\api\asp31.Controllers.WeatherForecastController.html" />
+    <None Include="wwwroot\_site\api\asp31.Data.asp31Context.html" />
+    <None Include="wwwroot\_site\api\asp31.Data.html" />
+    <None Include="wwwroot\_site\api\asp31.html" />
+    <None Include="wwwroot\_site\api\asp31.Migrations.html" />
+    <None Include="wwwroot\_site\api\asp31.Migrations.initial.html" />
+    <None Include="wwwroot\_site\api\asp31.Models.Employee.html" />
+    <None Include="wwwroot\_site\api\asp31.Models.html" />
+    <None Include="wwwroot\_site\api\asp31.Pages.ErrorModel.html" />
+    <None Include="wwwroot\_site\api\asp31.Pages.html" />
+    <None Include="wwwroot\_site\api\asp31.WeatherForecast.html" />
+    <None Include="wwwroot\_site\api\index.html" />
+    <None Include="wwwroot\_site\api\toc.html" />
+    <None Include="wwwroot\_site\articles\intro.html" />
+    <None Include="wwwroot\_site\articles\toc.html" />
+    <None Include="wwwroot\_site\favicon.ico" />
+    <None Include="wwwroot\_site\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\_site\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\_site\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\_site\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\_site\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\_site\index.html" />
+    <None Include="wwwroot\_site\logo.svg" />
+    <None Include="wwwroot\_site\README.html" />
+    <None Include="wwwroot\_site\styles\docfx.css" />
+    <None Include="wwwroot\_site\styles\docfx.js" />
+    <None Include="wwwroot\_site\styles\docfx.vendor.css" />
+    <None Include="wwwroot\_site\styles\docfx.vendor.js" />
+    <None Include="wwwroot\_site\styles\lunr.js" />
+    <None Include="wwwroot\_site\styles\lunr.min.js" />
+    <None Include="wwwroot\_site\styles\main.css" />
+    <None Include="wwwroot\_site\styles\main.js" />
+    <None Include="wwwroot\_site\styles\search-worker.js" />
+    <None Include="wwwroot\_site\toc.html" />
+    <None Include="wwwroot\_site\xrefmap.yml" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

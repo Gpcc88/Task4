@@ -13,12 +13,14 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.5",
-          "Swashbuckle.AspNetCore": "6.3.1"
+          "Swashbuckle.AspNetCore": "6.3.1",
+          "docfx.console": "2.59.2"
         },
         "runtime": {
           "asp31.dll": {}
         }
       },
+      "docfx.console/2.59.2": {},
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -2294,6 +2296,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "docfx.console/2.59.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-upRLxndC6nadAnS9ZbKipBub3qdWXCagiH9yKsMhsVQFAASXnikpkpWUmqFGhajwEGImIct/hdStAMwcxjh6yw==",
+      "path": "docfx.console/2.59.2",
+      "hashPath": "docfx.console.2.59.2.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

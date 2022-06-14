@@ -1,12 +1,10 @@
-﻿using System;
+﻿using asp31.Data;
+using asp31.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using asp31.Data;
-using asp31.Models;
 
 namespace asp31.Controllers
 {
